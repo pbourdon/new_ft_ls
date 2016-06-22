@@ -6,7 +6,7 @@
 #    By: ybeaure <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/04/06 15:21:05 by ybeaure           #+#    #+#              #
-#    Updated: 2016/06/21 11:21:10 by pbourdon         ###   ########.fr        #
+#    Updated: 2016/06/22 19:35:01 by pbourdon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,9 +25,12 @@ SRC =  main.c\
 	   new_list.c\
 	   ft_display_list.c\
 	   ft_init_struct.c\
+	   ft_init_struct2.c\
 		ft_handle_option.c\
 		ft_find_options.c\
 		open.c\
+		ft_check_folder.c\
+		ft_add_data.c\
 
 OBJ = $(SRC:.c=.o)
 

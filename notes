@@ -1,0 +1,10 @@
+On lit chaque fichier un par un. 
+Pour chaque fichier, le placer directement au bon endroit dans la chaine. 
+Pour chaque fin de dossier, afficher le dossier, directement trie.
+
+Si R, reparcourir le dossier actuel, et a chaque dossier, rappeler la fonction open
+
+
+
+
+
