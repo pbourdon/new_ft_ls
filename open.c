@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/22 19:40:23 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/24 06:36:03 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,17 +17,18 @@ int		ft_init_registre_link(int index, char *name, t_arg *arg, char *path)
 	return (0);
 }
 
-int		registre(t_arg *arg, t_arg2 *arg2, char *path, int recursive)
+int		registre(t_arg *arg, char *path, int recursive)
 {
 	DIR				*rep;
 	struct dirent	*b;
 	struct stat		f;
-	Dlist			*list;
 	char			*linkname;
 	size_t			r;
+	Dlist *list = NULL;
 
-	list = NULL;
+
 	rep = NULL;
+	list = dlist_new();
 	if (lstat(path, &f) != 0)
 	{
 		ft_putstr("failed on first lstat of open");
@@ -58,9 +59,9 @@ int		registre(t_arg *arg, t_arg2 *arg2, char *path, int recursive)
 		}
 		else
 		{
-			arg2 = ft_add_data(b->d_name, arg2, path);
+			list = ft_add_data(list, b->d_name, path);
 		}
 	}
-	ft_display_list(arg2);
+	ft_display_list(list);
 	return (0);
 }

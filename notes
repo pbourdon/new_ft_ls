@@ -5,6 +5,21 @@ Pour chaque fin de dossier, afficher le dossier, directement trie.
 Si R, reparcourir le dossier actuel, et a chaque dossier, rappeler la fonction open
 
 
+tant que le path est > a la cible de la liste, alors on continue.
+quand le path devient < a la cible de la liste, le path est place juste avant la cible de la liste 
 
 
+Paul
+
+Paul Pierre
+
+Paul Pbaaa Pierre 
+
+Paul Pbaaaa Pierre Pjj
+
+A Paul Pbaa Pierre Pjj
+
+A Paul Pbaa Pierre Pierre2 Pjj
+
+REFAIRE LE SYSTEME DE TRI POUR POUVOIR INSERER OU JE VEUX CHAQUE ELEMENT
 
