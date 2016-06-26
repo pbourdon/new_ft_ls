@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/24 06:36:03 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 01:48:00 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ int		registre(t_arg *arg, char *path, int recursive)
 	size_t			r;
 	Dlist *list = NULL;
 
-
 	rep = NULL;
 	list = dlist_new();
 	if (lstat(path, &f) != 0)
@@ -34,21 +33,12 @@ int		registre(t_arg *arg, char *path, int recursive)
 		ft_putstr("failed on first lstat of open");
 		return (0);
 	}
-	/*
-	if (arg->option_l == 1 && S_ISLNK(f.st_mode))
-	{
-		linkname = (char *)(malloc(255));
-		if ((r = readlink(path, linkname, 255)))
-			linkname[r] = '\0';
-		ft_init_registre_link(index, linkname, arg, path);
-		index++;
-		return (0);
-	}
-	*/
 	rep = opendir(path);
 	if (rep == NULL)
 	{
-		ft_putstr("permission denied");
+		ft_putstr(path);
+		ft_putchar(' ');
+		ft_putstr("permission denied\n");
 		return (0);
 	}
 	while ((b = readdir(rep)) != 0)
@@ -63,5 +53,34 @@ int		registre(t_arg *arg, char *path, int recursive)
 		}
 	}
 	ft_display_list(list);
+	if (recursive == 1)
+	{
+		closedir(rep);
+		rep = NULL;
+		rep = opendir(path);
+		if (rep == NULL)
+		{
+			ft_putstr("permission denied\n");
+			return (0);
+		}
+		while ((b = readdir(rep)) != 0)
+		{
+			if (ft_check_folder(ft_strjoin_special(path, b->d_name)) == 1 && arg->option_a == 0)
+			{
+			}
+			else
+			{
+				if (lstat(ft_strjoin_special(path, b->d_name), &f) != 0)
+				{
+					ft_putstr("A problem just happened of lstat");
+					return(0);
+				}
+				if (S_ISDIR(f.st_mode) && s(b->d_name) != 0 && e(b->d_name) != 0)
+				{
+					registre(arg, ft_strjoin_special(path, b->d_name), 1);
+				}
+			}
+		}
+	}
 	return (0);
 }

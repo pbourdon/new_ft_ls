@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:06:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/24 02:27:22 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 01:41:03 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ struct node
 {
 	char		*name;
 	char		*path;
+	int			data;
 	struct node *p_next;
 	struct node *p_prev;
 };
@@ -67,6 +68,7 @@ Dlist	*dlist_new(void);
 Dlist	*ft_add_data(Dlist *list, char *name, char *path);
 void	ft_display_list(Dlist *p_list);
 
+
 void	ft_putstr(char *str);
 void	ft_putchar(char c);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
@@ -74,6 +76,10 @@ size_t	ft_strlen(const char *str);
 void	ft_putnbr(int nbr);
 char	*ft_itoa(int n);
 void	ft_putchar_fd(char c, int fd);
+int		ft_strcmp(const char *s1, const char *s2);
+int		s(const char *s1);
+int		e(const char *s1);
+
 void	ft_putstr_fd(char *str, int fd);
 void	ft_putnbr_fd(int nbr, int fd);
 char	*ft_strjoin_special(char const *s1, char const *s2);
