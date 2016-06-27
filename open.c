@@ -6,16 +6,11 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 01:48:00 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 06:41:27 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
-
-int		ft_init_registre_link(int index, char *name, t_arg *arg, char *path)
-{
-	return (0);
-}
 
 int		registre(t_arg *arg, char *path, int recursive)
 {
@@ -38,7 +33,7 @@ int		registre(t_arg *arg, char *path, int recursive)
 	{
 		ft_putstr(path);
 		ft_putchar(' ');
-		ft_putstr("permission denied\n");
+		ft_putstr("Permission Denied\n");
 		return (0);
 	}
 	while ((b = readdir(rep)) != 0)
@@ -52,7 +47,10 @@ int		registre(t_arg *arg, char *path, int recursive)
 			list = ft_add_data(list, b->d_name, path);
 		}
 	}
-	ft_display_list(list);
+	ft_putchar('\n');
+	ft_putstr(path);
+	ft_putstr(":\n");
+	ft_display(arg, list);
 	if (recursive == 1)
 	{
 		closedir(rep);
@@ -82,5 +80,6 @@ int		registre(t_arg *arg, char *path, int recursive)
 			}
 		}
 	}
+		closedir(rep);
 	return (0);
 }

@@ -11,10 +11,6 @@ int		ft_ls(t_arg *arg, char *path, int id)
 
 int		main(int argc, char **argv)
 {
-//	Dlist *list = NULL;
-//	list = dlist_new();
-//	list = dlist_append(list, "name1", "path1");
-//	dlist_display(list);
 	t_arg	arg;
 	int		argument_nbr;
 	int		option;
@@ -22,7 +18,6 @@ int		main(int argc, char **argv)
 	if (argc > 1)
 	{
 		ft_init_struct(&arg);
-	//	ft_init_struct2(&arg2);
 		option = ft_handle_option(&arg, argc, argv, 0);
 		if (option + 1 == argc)
 			ft_ls(&arg, ".", 0);

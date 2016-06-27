@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:06:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 01:41:03 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 06:45:29 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,16 @@ int		registre(t_arg *arg, char *path, int recursive);
 int		ft_check_folder(char *path);
 Dlist	*dlist_new(void);
 Dlist	*ft_add_data(Dlist *list, char *name, char *path);
-void	ft_display_list(Dlist *p_list);
+void	ft_display_list(Dlist *p_list, int l);
+void	ft_display(t_arg *arg, Dlist *p_list);
+int		ft_display_r(t_arg *arg, Dlist *p_list,  int l);
+int		ft_display_all(char *path, char *name);
+int		ft_display_link_count(char *path);
+void	ft_display_rights(char *path);
+int		ft_display_ownership(char *path);
+int		ft_display_link(char *path);
+int		ft_make_time(char *path);
+int		ft_display_size(char *path);
 
 
 void	ft_putstr(char *str);
@@ -79,7 +88,6 @@ void	ft_putchar_fd(char c, int fd);
 int		ft_strcmp(const char *s1, const char *s2);
 int		s(const char *s1);
 int		e(const char *s1);
-
 void	ft_putstr_fd(char *str, int fd);
 void	ft_putnbr_fd(int nbr, int fd);
 char	*ft_strjoin_special(char const *s1, char const *s2);

@@ -6,7 +6,7 @@
 #    By: ybeaure <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/04/06 15:21:05 by ybeaure           #+#    #+#              #
-#    Updated: 2016/06/24 02:15:43 by pbourdon         ###   ########.fr        #
+#    Updated: 2016/06/27 02:47:44 by pbourdon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,17 @@ SRC =  main.c\
 		open.c\
 		ft_check_folder.c\
 		ft_add_data.c\
+		ft_display.c\
+		ft_display_r.c\
+		ft_display_rights.c\
+		ft_display_all.c\
+		ft_display_link_count.c\
+		ft_display_ownership.c\
+		ft_display_link.c\
+		ft_make_time.c\
+		ft_display_size.c\
+
+
 
 OBJ = $(SRC:.c=.o)
 

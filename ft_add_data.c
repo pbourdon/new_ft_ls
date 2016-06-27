@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/22 18:46:12 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 01:44:25 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 06:44:25 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,26 +111,6 @@ Dlist *ins_avant (Dlist * liste, char *path, char *name, int pos)
 	return (liste);
 }
 
-
-void	ft_display_list(Dlist *p_list)
-{
-	int		compteur;
-
-	compteur = 1;
-
-	ft_putstr("\n---------------------NEW FOLDER -------------\n");
-	if (p_list != NULL)
-	{
-		struct node *p_temp = p_list->p_head;
-		while (p_temp != NULL)
-		{
-			printf("%s\n", p_temp->path);
-			p_temp = p_temp->p_next;
-			compteur++;
-		}
-	}
-}
-
 Dlist	*ft_add_data(Dlist *p_list, char *name, char *path)
 {
 	int		compteur;
@@ -160,13 +140,11 @@ Dlist	*ft_add_data(Dlist *p_list, char *name, char *path)
 	if (compteur == 1)
 	{
 		p_list = dlist_prepend(p_list, path, name);
-
 		return (p_list);
 	}
 	else if(compteur >= max)
 	{
 		p_list = dlist_append(p_list, path, name);
-
 		return (p_list);
 	}
 	p_list = ins_avant(p_list, path, name, compteur);
