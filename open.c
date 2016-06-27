@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 06:41:27 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 06:52:41 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,9 @@ int		registre(t_arg *arg, char *path, int recursive)
 	}
 	while ((b = readdir(rep)) != 0)
 	{
+		ft_putstr("analyse en cours...");
+		ft_putstr(ft_strjoin_special(path, b->d_name));
+		ft_putchar('\n');
 		if (ft_check_folder(ft_strjoin_special(path, b->d_name)) == 1
 			&& arg->option_a == 0)
 		{
@@ -75,6 +78,9 @@ int		registre(t_arg *arg, char *path, int recursive)
 				}
 				if (S_ISDIR(f.st_mode) && s(b->d_name) != 0 && e(b->d_name) != 0)
 				{
+					ft_putstr("on rentre par ici");
+					ft_putstr(ft_strjoin_special(path, b->d_name));
+					ft_putchar('\n');
 					registre(arg, ft_strjoin_special(path, b->d_name), 1);
 				}
 			}
