@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 04:55:11 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 06:05:02 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,23 @@ int		fuck_the_norm2(char *path)
 	return (0);
 }
 
+void	fuck_the_norm3(t_arg *arg, Dlist *list, char *path)
+{
+	ft_putchar('\n');
+	ft_putstr(path);
+	ft_putstr(":\n");
+	ft_display(arg, list);
+}
+
 int		registre(t_arg *arg, char *path, int recursive)
 {
 	DIR				*rep;
 	struct dirent	*b;
 	struct stat		f;
 	size_t			r;
-	Dlist *list = NULL;
+	Dlist			*list;
 
+	list = NULL;
 	rep = NULL;
 	list = dlist_new();
 	if (lstat(path, &f) != 0)
@@ -57,10 +66,7 @@ int		registre(t_arg *arg, char *path, int recursive)
 		else
 			list = ft_add_data(list, b->d_name, path);
 	}
-	ft_putchar('\n');
-	ft_putstr(path);
-	ft_putstr(":\n");
-	ft_display(arg, list);
+	fuck_the_norm3(arg, list, path);
 	dlist_delete(&list);
 	if (rep != NULL)
 		closedir(rep);
@@ -75,20 +81,21 @@ int		registre2(char *path, t_arg *arg)
 	struct dirent	*b;
 	struct stat		f;
 	size_t			r;
-	
+
 	rep = NULL;
 	rep = opendir(path);
 	if (rep == NULL)
 		fuck_the_norm2(path);
 	while ((b = readdir(rep)) != 0)
 	{
-		if (ft_check_folder(ft_strjoin_special(path, b->d_name)) == 1 && arg->option_a == 0)
+		if (ft_check_folder(ft_strjoin_special(path, b->d_name)) == 1
+			&& arg->option_a == 0)
 		{
 		}
 		else
 		{
 			if (lstat(ft_strjoin_special(path, b->d_name), &f) != 0)
-				return(0);
+				return (0);
 			if (S_ISDIR(f.st_mode) && s(b->d_name) != 0 && e(b->d_name) != 0)
 			{
 				ft_putchar('\n');
