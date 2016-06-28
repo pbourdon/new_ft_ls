@@ -6,15 +6,15 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/28 04:27:23 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 04:33:01 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 08:38:20 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-Dlist	*dlist_new(void)
+t_dlist	*dlist_new(void)
 {
-	Dlist *p_new;
+	t_dlist *p_new;
 
 	p_new = malloc(sizeof(*p_new));
 	if (p_new != NULL)

@@ -6,13 +6,13 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/27 01:54:49 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 04:24:21 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 08:37:41 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-void	ft_display(t_arg *arg, Dlist *p_list)
+void	ft_display(t_arg *arg, t_dlist *p_list)
 {
 	if (arg->option_r == 1)
 	{
@@ -22,9 +22,9 @@ void	ft_display(t_arg *arg, Dlist *p_list)
 		ft_display_list(p_list, arg->option_l);
 }
 
-int		ft_display_list(Dlist *p_list, int l)
+int		ft_display_list(t_dlist *p_list, int l)
 {
-	struct node *p_temp;
+	t_node *p_temp;
 
 	p_temp = p_list->p_head;
 	if (p_list != NULL)

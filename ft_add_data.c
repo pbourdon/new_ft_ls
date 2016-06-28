@@ -6,16 +6,16 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/22 18:46:12 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 06:31:51 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 08:42:28 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-void		dlist_delete(Dlist **p_list)
+void		dlist_delete(t_dlist **p_list)
 {
-	struct node		*p_temp;
-	struct node		*p_del;
+	t_node		*p_temp;
+	t_node		*p_del;
 
 	if (*p_list != NULL)
 	{
@@ -31,9 +31,9 @@ void		dlist_delete(Dlist **p_list)
 	}
 }
 
-Dlist		*dlist_prepend(Dlist *p_list, char *path, char *name)
+t_dlist		*dlist_prepend(t_dlist *p_list, char *path, char *name)
 {
-	struct node		*p_new;
+	t_node		*p_new;
 
 	if (p_list != NULL)
 	{
@@ -59,9 +59,9 @@ Dlist		*dlist_prepend(Dlist *p_list, char *path, char *name)
 	return (p_list);
 }
 
-Dlist		*dlist_append(Dlist *p_list, char *path, char *name)
+t_dlist		*dlist_append(t_dlist *p_list, char *path, char *name)
 {
-	struct node		*p_new;
+	t_node		*p_new;
 
 	if (p_list != NULL)
 	{
@@ -87,11 +87,11 @@ Dlist		*dlist_append(Dlist *p_list, char *path, char *name)
 	return (p_list);
 }
 
-Dlist		*ins_avant(Dlist *liste, char *path, char *name, int pos)
+t_dlist		*ins_avant(t_dlist *liste, char *path, char *name, int pos)
 {
-	int				i;
-	struct node		*n;
-	struct node		*courant;
+	int			i;
+	t_node		*n;
+	t_node		*courant;
 
 	i = 1;
 	n = malloc(sizeof(*n));
@@ -115,10 +115,10 @@ Dlist		*ins_avant(Dlist *liste, char *path, char *name, int pos)
 	return (liste);
 }
 
-Dlist		*ft_add_data(Dlist *p_list, char *name, char *path, int compteur)
+t_dlist		*ft_add_data(t_dlist *p_list, char *name, char *path, int compteur)
 {
-	int				max;
-	struct node		*p_temp;
+	int			max;
+	t_node		*p_temp;
 
 	max = 1;
 	if (p_list != NULL)

@@ -6,13 +6,13 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 06:34:50 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 08:25:30 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-int		fuck_the_norm(t_arg *arg, char *path, Dlist *list)
+int		fuck_the_norm(t_arg *arg, char *path, t_dlist *list)
 {
 	list = ft_add_data(list, "", path, 1);
 	ft_putchar('\n');
@@ -31,7 +31,7 @@ int		fuck_the_norm2(char *path)
 	return (0);
 }
 
-void	fuck_the_norm3(t_arg *arg, Dlist *list, char *path)
+void	fuck_the_norm3(t_arg *arg, t_dlist *list, char *path)
 {
 	ft_putchar('\n');
 	ft_putstr(path);
@@ -45,7 +45,7 @@ int		registre(t_arg *arg, char *path, int recursive)
 	struct dirent	*b;
 	struct stat		f;
 	size_t			r;
-	Dlist			*list;
+	t_dlist			*list;
 
 	list = NULL;
 	rep = NULL;

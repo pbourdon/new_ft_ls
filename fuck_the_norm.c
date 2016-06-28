@@ -6,13 +6,13 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/28 06:17:13 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 06:34:57 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 08:39:31 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-struct node		*fuck_the_norm5(struct node *nouveau_element, char *path,
+t_node		*fuck_the_norm5(t_node *nouveau_element, char *path,
 	char *nam)
 {
 	if (ft_strlen(nam) > 0)
@@ -22,7 +22,7 @@ struct node		*fuck_the_norm5(struct node *nouveau_element, char *path,
 	return (nouveau_element);
 }
 
-Dlist			*nik_the_norm(struct node *p_new, Dlist *p_list, int i)
+t_dlist		*nik_the_norm(t_node *p_new, t_dlist *p_list, int i)
 {
 	if (i == 0)
 	{
@@ -39,7 +39,7 @@ Dlist			*nik_the_norm(struct node *p_new, Dlist *p_list, int i)
 	return (p_list);
 }
 
-Dlist				*nik_the_norm2(Dlist *p_list, struct node *p_new, int i)
+t_dlist		*nik_the_norm2(t_dlist *p_list, t_node *p_new, int i)
 {
 	if (i == 0)
 	{

@@ -6,15 +6,15 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/08 09:49:11 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 02:29:46 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 08:38:04 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-int		ft_display_r(t_arg *arg, Dlist *p_list, int l)
+int		ft_display_r(t_arg *arg, t_dlist *p_list, int l)
 {
-	struct node *p_temp;
+	t_node *p_temp;
 
 	p_temp = p_list->p_tail;
 	if (p_list != NULL)
