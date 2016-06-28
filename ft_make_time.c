@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/03 05:46:02 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 06:46:25 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/27 21:24:54 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,15 @@ int		ft_check_date(long int date)
 	return (0);
 }
 
-char	*display_special_date(char *retur)
+int		display_special_date(char *retur)
 {
 	int		index;
 	int		index2;
 	char	*date;
 
 	date = malloc(sizeof(ft_strlen(retur) + 1));
+	if (date == NULL)
+		return (0);
 	index2 = 0;
 	index = 4;
 	while (index < 10)
@@ -49,7 +51,10 @@ char	*display_special_date(char *retur)
 		index++;
 	}
 	date[index2] = ' ';
-	return (date);
+	ft_putstr(date);
+	free(date);
+	//free(retur);
+	return (0);
 }
 
 int		ft_make_time(char *path)
@@ -68,10 +73,16 @@ int		ft_make_time(char *path)
 		return (0);
 	}
 	retur = malloc(sizeof(ft_strlen(ctime(&f.st_mtime)) + 1));
+	if (retur == NULL)
+	{
+		return (0);
+	}
 	date = malloc(sizeof(ft_strlen(ctime(&f.st_mtime)) + 1));
 	retur = ctime(&f.st_mtime);
 	if (ft_check_date(*&f.st_mtime) == 1)
-		date = display_special_date(retur);
+	{
+		display_special_date(retur);
+	}
 	else
 	{
 		while (index < 16)
@@ -81,7 +92,8 @@ int		ft_make_time(char *path)
 			index2++;
 		}
 		date[index2] = ' ';
+		ft_putstr(date);
 	}
-	ft_putstr(date);
+	free(date);
 	return (0);
 }

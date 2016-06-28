@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/21 11:19:26 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 06:52:41 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 04:24:19 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,35 +28,47 @@ int		registre(t_arg *arg, char *path, int recursive)
 		ft_putstr("failed on first lstat of open");
 		return (0);
 	}
-	rep = opendir(path);
-	if (rep == NULL)
+	if (arg->option_l == 1 && S_ISLNK(f.st_mode))
 	{
+		list = ft_add_data(list, "", path);
+		ft_putchar('\n');
 		ft_putstr(path);
-		ft_putchar(' ');
-		ft_putstr("Permission Denied\n");
+		ft_putstr(":\n");
+		ft_display(arg, list);
+		dlist_delete(&list);
 		return (0);
 	}
-	while ((b = readdir(rep)) != 0)
+	else
 	{
-		ft_putstr("analyse en cours...");
-		ft_putstr(ft_strjoin_special(path, b->d_name));
-		ft_putchar('\n');
-		if (ft_check_folder(ft_strjoin_special(path, b->d_name)) == 1
-			&& arg->option_a == 0)
+		rep = opendir(path);
+		if (rep == NULL)
 		{
+			ft_putstr(path);
+			ft_putchar(' ');
+			ft_putstr("Permission Denied\n");
+			return (0);
 		}
-		else
+		while ((b = readdir(rep)) != 0)
 		{
-			list = ft_add_data(list, b->d_name, path);
+			if (ft_check_folder(ft_strjoin_special(path, b->d_name)) == 1
+				&& arg->option_a == 0)
+			{
+			}
+			else
+			{
+				list = ft_add_data(list, b->d_name, path);
+			}
 		}
 	}
 	ft_putchar('\n');
 	ft_putstr(path);
 	ft_putstr(":\n");
 	ft_display(arg, list);
+	dlist_delete(&list);
 	if (recursive == 1)
 	{
-		closedir(rep);
+		if (rep != NULL)
+			closedir(rep);
 		rep = NULL;
 		rep = opendir(path);
 		if (rep == NULL)
@@ -78,14 +90,13 @@ int		registre(t_arg *arg, char *path, int recursive)
 				}
 				if (S_ISDIR(f.st_mode) && s(b->d_name) != 0 && e(b->d_name) != 0)
 				{
-					ft_putstr("on rentre par ici");
-					ft_putstr(ft_strjoin_special(path, b->d_name));
 					ft_putchar('\n');
 					registre(arg, ft_strjoin_special(path, b->d_name), 1);
 				}
 			}
 		}
 	}
+	if (rep != NULL)
 		closedir(rep);
 	return (0);
 }

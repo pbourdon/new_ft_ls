@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/27 01:54:49 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 02:50:12 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 04:24:21 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_display(t_arg *arg, Dlist *p_list)
 		ft_display_list(p_list, arg->option_l);
 }
 
-void	ft_display_list(Dlist *p_list, int l)
+int		ft_display_list(Dlist *p_list, int l)
 {
 	struct node *p_temp;
 
@@ -41,4 +41,5 @@ void	ft_display_list(Dlist *p_list, int l)
 			p_temp = p_temp->p_next;
 		}
 	}
+	return (0);
 }

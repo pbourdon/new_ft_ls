@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:06:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 06:45:29 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 04:24:36 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ int		registre(t_arg *arg, char *path, int recursive);
 int		ft_check_folder(char *path);
 Dlist	*dlist_new(void);
 Dlist	*ft_add_data(Dlist *list, char *name, char *path);
-void	ft_display_list(Dlist *p_list, int l);
+int		ft_display_list(Dlist *p_list, int l);
 void	ft_display(t_arg *arg, Dlist *p_list);
 int		ft_display_r(t_arg *arg, Dlist *p_list,  int l);
 int		ft_display_all(char *path, char *name);
@@ -76,7 +76,7 @@ int		ft_display_ownership(char *path);
 int		ft_display_link(char *path);
 int		ft_make_time(char *path);
 int		ft_display_size(char *path);
-
+void	dlist_delete(Dlist **p_list);
 
 void	ft_putstr(char *str);
 void	ft_putchar(char c);
