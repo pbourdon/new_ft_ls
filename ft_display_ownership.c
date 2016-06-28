@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/27 02:33:20 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/27 02:48:05 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 04:34:52 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,9 @@ int		ft_display_ownership(char *path)
 	struct group		*group;
 	int					uid;
 	int					gid;
+
 	if (lstat(path, &f) != 0)
-	{
-		ft_putstr("lstat ft_display_ownership deconne");
 		return (0);
-	}
 	uid = f.st_uid;
 	gid = f.st_gid;
 	owner = getpwuid(uid);

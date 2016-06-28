@@ -1,37 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_display_link.c                                  :+:      :+:    :+:   */
+/*   dlist_new.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/06/27 02:37:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 04:34:22 by pbourdon         ###   ########.fr       */
+/*   Created: 2016/06/28 04:27:23 by pbourdon          #+#    #+#             */
+/*   Updated: 2016/06/28 04:33:01 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
 
-int		ft_display_link(char *path)
+Dlist	*dlist_new(void)
 {
-	struct stat		f;
-	char			*linkname;
-	ssize_t			r;
+	Dlist *p_new;
 
-	if (lstat(path, &f) != 0)
-		return (0);
-	if (S_ISLNK(f.st_mode))
+	p_new = malloc(sizeof(*p_new));
+	if (p_new != NULL)
 	{
-		linkname = (char*)malloc(255);
-		if (linkname == NULL)
-			return (0);
-		if ((r = readlink(path, linkname, 255)))
-			linkname[r] = '\0';
-		else
-			return (0);
-		ft_putstr(" -> ");
-		ft_putstr(linkname);
-		free(linkname);
+		p_new->length = 0;
+		p_new->p_head = NULL;
+		p_new->p_tail = NULL;
 	}
-	return (0);
+	return (p_new);
 }

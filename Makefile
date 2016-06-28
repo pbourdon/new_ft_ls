@@ -6,7 +6,7 @@
 #    By: ybeaure <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/04/06 15:21:05 by ybeaure           #+#    #+#              #
-#    Updated: 2016/06/28 04:25:47 by pbourdon         ###   ########.fr        #
+#    Updated: 2016/06/28 04:29:48 by pbourdon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,6 +37,7 @@ SRC =  main.c\
 		ft_display_link.c\
 		ft_make_time.c\
 		ft_display_size.c\
+		dlist_new.c\
 
 OBJ = $(SRC:.c=.o)
 

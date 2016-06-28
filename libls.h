@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:06:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 04:24:36 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 04:54:21 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,9 +74,11 @@ int		ft_display_link_count(char *path);
 void	ft_display_rights(char *path);
 int		ft_display_ownership(char *path);
 int		ft_display_link(char *path);
-int		ft_make_time(char *path);
+int		ft_make_time(char *path, int index, int index2);
 int		ft_display_size(char *path);
 void	dlist_delete(Dlist **p_list);
+int		registre2(char *path, t_arg *arg);
+
 
 void	ft_putstr(char *str);
 void	ft_putchar(char c);

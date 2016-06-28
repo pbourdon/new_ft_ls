@@ -6,24 +6,11 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/22 18:46:12 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 01:59:12 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 04:39:18 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libls.h"
-
-Dlist *dlist_new(void)
-{
-	Dlist *p_new = malloc(sizeof *p_new);
-
-	if (p_new != NULL)
-	{
-		p_new->length = 0;
-		p_new->p_head = NULL;
-		p_new->p_tail = NULL;
-	}
-	return p_new;
-}
 
 void dlist_delete(Dlist **p_list)
 {
@@ -40,7 +27,6 @@ void dlist_delete(Dlist **p_list)
 		p_list = NULL;
 	}
 }
-
 
 Dlist *dlist_prepend(Dlist *p_list, char *path, char *name)
 {
