@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:06:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 04:54:21 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/28 06:38:00 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@
 # include <errno.h>
 # include <grp.h>
 
-typedef struct	s_yolo
+typedef struct		s_yolo
 {
 	int		*read;
 	int		uid;
@@ -37,48 +37,52 @@ typedef struct	s_yolo
 	int		option_l;
 	int		option_t;
 	int		option_r;
-}				t_arg;
+}					t_arg;
 
-struct node
+typedef struct		node
 {
 	char		*name;
 	char		*path;
 	int			data;
 	struct node *p_next;
 	struct node *p_prev;
-};
+}					node;
 
-typedef struct dlist
+typedef struct		dlist
 {
 	size_t length;
 	struct node *p_tail;
 	struct node *p_head;
-}				Dlist;
+}					Dlist;
 
-Dlist	*dlist_new(void);
-void	dlist_delete(Dlist **p_list);
-void	dlist_display(Dlist *p_list);
-void	ft_init_struct(t_arg *arg);
-int		ft_handle_option(t_arg *arg, int argc, char **argv, int option);
-void	ft_find_options(t_arg *arg, char *command);
-int		ft_ls(t_arg *arg, char *path, int id);
-int		registre(t_arg *arg, char *path, int recursive);
-int		ft_check_folder(char *path);
-Dlist	*dlist_new(void);
-Dlist	*ft_add_data(Dlist *list, char *name, char *path);
-int		ft_display_list(Dlist *p_list, int l);
-void	ft_display(t_arg *arg, Dlist *p_list);
-int		ft_display_r(t_arg *arg, Dlist *p_list,  int l);
-int		ft_display_all(char *path, char *name);
-int		ft_display_link_count(char *path);
-void	ft_display_rights(char *path);
-int		ft_display_ownership(char *path);
-int		ft_display_link(char *path);
-int		ft_make_time(char *path, int index, int index2);
-int		ft_display_size(char *path);
-void	dlist_delete(Dlist **p_list);
-int		registre2(char *path, t_arg *arg);
+Dlist		*dlist_new(void);
+void		dlist_delete(Dlist **p_list);
+void		dlist_display(Dlist *p_list);
+void		ft_init_struct(t_arg *arg);
+int			ft_handle_option(t_arg *arg, int argc, char **argv, int option);
+void		ft_find_options(t_arg *arg, char *command);
+int			ft_ls(t_arg *arg, char *path, int id);
+int			registre(t_arg *arg, char *path, int recursive);
+int			ft_check_folder(char *path);
+Dlist		*dlist_new(void);
+Dlist		*ft_add_data(Dlist *list, char *name, char *path, int compteur);
+int			ft_display_list(Dlist *p_list, int l);
+void		ft_display(t_arg *arg, Dlist *p_list);
+int			ft_display_r(t_arg *arg, Dlist *p_list,  int l);
+int			ft_display_all(char *path, char *name);
+int			ft_display_link_count(char *path);
+void		ft_display_rights(char *path);
+int			ft_display_ownership(char *path);
+int			ft_display_link(char *path);
+int			ft_make_time(char *path, int index, int index2);
+int			ft_display_size(char *path);
+void		dlist_delete(Dlist **p_list);
+int			registre2(char *path, t_arg *arg);
 
+struct		node *fuck_the_norm5(struct node *nouveau_element, char *path,
+	char *nam);
+Dlist		*nik_the_norm(struct node *p_new, Dlist *p_list, int i);
+Dlist		*nik_the_norm2(Dlist *p_list, struct node *p_new, int i);
 
 void	ft_putstr(char *str);
 void	ft_putchar(char c);
