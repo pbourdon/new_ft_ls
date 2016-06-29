@@ -1,0 +1,1502 @@
+
+
+/nfs/2015/p/pbourdon:
+drwx------ 4 pbourdon 2015_paris 4096 Jun 14 23:36 Applications
+drwx------ 2 pbourdon 2015_paris 4096 Mar 14 15:06 Desktop
+drwx------ 2 pbourdon 2015_paris 4096 Mar 10 03:16 Documents
+drwx------ 7 pbourdon 2015_paris 4096 Jun 24 01:16 Downloads
+drwxr-xr-x 36 pbourdon 2015_paris 4096 Jun 29 02:37 Library
+drwx------ 2 pbourdon 2015_paris 4096 Feb 22 17:14 Movies
+drwx------ 2 pbourdon 2015_paris 4096 Feb 22 17:14 Music
+drwx------ 2 pbourdon 2015_paris 4096 Feb 22 17:14 Pictures
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:04 brainfuck
+drwxr-xr-x 6 pbourdon 2015_paris 4096 Jun 28 09:04 exam-basedir
+drwxr-xr-x 3 pbourdon 2015_paris 4096 May 28 01:51 fillit
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Jun 27 02:25 ft_ls
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 14 16:46 ft_printf
+drwxr-xr-x 3 pbourdon 2015_paris 4096 May 28 01:45 ft_printf_retry
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Mar  3 19:54 gnl
+lrwxrwxrwx 1 pbourdon 2015_paris 34 Mar  3 19:26 goinfre -> /Volumes/Storage/goinfre/pbourdon/
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Jun 14 23:41 http
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Jun 29 04:27 new_ft_ls
+
+
+/nfs/2015/p/pbourdon/Pictures:
+
+
+/nfs/2015/p/pbourdon/brainfuck:
+-rw-r--r-- 1 pbourdon 2015_paris 1119 Jun 28 09:04 brainfuck.c
+
+
+/nfs/2015/p/pbourdon/fillit:
+-rw-r--r-- 1 pbourdon 2015_paris 2085 Feb 22 19:25 Makefile
+-rw-r--r-- 1 pbourdon 2015_paris 1501 Feb 22 19:24 ft_add_tetriminos.c
+-rw-r--r-- 1 pbourdon 2015_paris 2263 Feb 22 19:24 ft_backtracking.c
+-rw-r--r-- 1 pbourdon 2015_paris 2589 Feb 22 19:24 ft_check.c
+-rw-r--r-- 1 pbourdon 2015_paris 2749 Feb 22 19:24 ft_fillit.h
+-rw-r--r-- 1 pbourdon 2015_paris 2790 Feb 22 19:24 ft_get_tetriminos.c
+-rw-r--r-- 1 pbourdon 2015_paris 2478 May 28 01:51 ft_main.c
+-rw-r--r-- 1 pbourdon 2015_paris 2460 Feb 22 19:24 ft_map.c
+-rw-r--r-- 1 pbourdon 2015_paris 1158 Feb 22 19:24 ft_memcpy.c
+-rw-r--r-- 1 pbourdon 2015_paris 1627 Feb 22 19:24 ft_minimap.c
+-rw-r--r-- 1 pbourdon 2015_paris 1770 Feb 22 19:24 ft_str.c
+-rw-r--r-- 1 pbourdon 2015_paris 1222 Feb 22 19:24 ft_strcmp.c
+-rw-r--r-- 1 pbourdon 2015_paris 1719 Feb 22 19:24 ft_strd.c
+-rw-r--r-- 1 pbourdon 2015_paris 1683 Feb 22 19:24 ft_strq.c
+-rw-r--r-- 1 pbourdon 2015_paris 2860 Feb 22 19:24 ft_strt.c
+
+
+/nfs/2015/p/pbourdon/Downloads:
+-rw-r--r-- 1 pbourdon 2015_paris 214652 Mar 14 15:51 12837412_938210162966111_1794267305_o.jpg
+-rw-r--r-- 1 pbourdon 2015_paris 1051398 Jun 14 23:36 BitTorrent (1).dmg
+-rw-r--r-- 1 pbourdon 2015_paris 1051398 Jun 14 23:35 BitTorrent.dmg
+-rw-r--r-- 1 pbourdon 2015_paris 437759 Jun  2 08:50 Paul Bourdon.html
+-rw-r--r-- 1 pbourdon 2015_paris 1482088996 Jun 22 22:53 [ www.CpasBien.cm ] Star.Wars.Episode.VII.The.Force.Awakens.2015.VOSTFR.BRRiP.XviD-ToRo.avi
+drwxrwxrwx 2 pbourdon 2015_paris 4096 Jun 24 01:16 [www.Cpasbien.com] The.Dictator.2012.French.SubForced.BRRip.XviD.AC3-Van73
+drwxrwxrwx 2 pbourdon 2015_paris 4096 Jun 14 23:40 [www.Cpasbien.pe] Neighbors.2014.FRENCH.BRRiP.XViD-ARTEFAC
+-rw-r--r-- 1 pbourdon 2015_paris 818691 Jun 14 23:34 cacaoweb.dmg
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 13 02:18 crunch-3.6
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 13 02:17 crunch-3.6 2
+-rw-r--r-- 1 pbourdon 2015_paris 38635 Jun 13 02:17 crunch-3.6.tgz
+-rw-r--r-- 1 pbourdon 2015_paris 58242 Jun 14 23:36 nos-pires-voisins-neighbors-french-dvdrip-2014 (1).torrent
+-rw-r--r-- 1 pbourdon 2015_paris 58242 Jun 14 23:35 nos-pires-voisins-neighbors-french-dvdrip-2014.torrent
+-rw-r--r-- 1 pbourdon 2015_paris 49040 Jun 10 01:54 pbourdon.jpg
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Apr 18 2013 puush.app
+-rw-r--r-- 1 pbourdon 2015_paris 2376141 Mar 14 13:53 puush.zip
+-rw-r--r-- 1 pbourdon 2015_paris 115714 Jun 22 22:48 star-wars-episode-vii-le-reveil-de-la-force-vostfr-dvdrip-2015.torrent
+-rw-r--r-- 1 pbourdon 2015_paris 114592 Jun 24 01:16 the-dictator-french-dvdrip-ac3-2012.torrent
+-rw-r--r-- 1 pbourdon 2015_paris 37349043 Jun 22 22:56 vlc-2.2.4 (1).dmg
+-rw-r--r-- 1 pbourdon 2015_paris 30533688 Jun 22 22:55 vlc-2.2.4-win32.exe
+-rw-r--r-- 1 pbourdon 2015_paris 37349043 Jun 14 23:42 vlc-2.2.4.dmg
+
+
+/nfs/2015/p/pbourdon/Downloads/crunch-3.6 2:
+-rw-r--r-- 1 pbourdon 2015_paris 18092 Mar 17 2013 COPYING
+-rw-r--r-- 1 pbourdon 2015_paris 3414 May  3 2014 Makefile
+-rw-r--r-- 1 pbourdon 2015_paris 5616 Mar 17 2013 charset.lst
+-rw-r--r-- 1 pbourdon 2015_paris 16176 May 17 2014 crunch.1
+-rw-r--r-- 1 pbourdon 2015_paris 116916 May 17 2014 crunch.c
+-rw-r--r-- 1 pbourdon 2015_paris 128 Mar 17 2013 unicode_test.lst
+
+
+/nfs/2015/p/pbourdon/Downloads/crunch-3.6:
+-rw-r--r-- 1 pbourdon 2015_paris 18092 Mar 17 2013 COPYING
+-rw-r--r-- 1 pbourdon 2015_paris 3414 May  3 2014 Makefile
+-rw-r--r-- 1 pbourdon 2015_paris 5616 Mar 17 2013 charset.lst
+-rwxr-xr-x 1 pbourdon 2015_paris 70012 Jun 13 02:18 crunch
+-rw-r--r-- 1 pbourdon 2015_paris 16176 May 17 2014 crunch.1
+-rw-r--r-- 1 pbourdon 2015_paris 116916 May 17 2014 ùcrunch.c
+-rw-r--r-- 1 pbourdon 2015_paris 128 Mar 17 2013 unicode_test.lst
+
+
+/nfs/2015/p/pbourdon/Downloads/[www.Cpasbien.pe] Neighbors.2014.FRENCH.BRRiP.XViD-ARTEFAC:
+-rw-r--r-- 1 pbourdon 2015_paris 462 Jun 14 23:37 Films DVDRIP sur www.Cpasbien.pe.html
+-rw-r--r-- 1 pbourdon 2015_paris 462 Jun 14 23:37 Les derniers Film et serie sur Cpasbien.pe - cliquez ici !.html
+-rw-r--r-- 1 pbourdon 2015_paris 727997076 Jun 14 23:39 [www.Cpasbien.pe] Neighbors.2014.FRENCH.BRRiP.XViD-ARTEFAC.avi
+-rw-r--r-- 1 pbourdon 2015_paris 462 Jun 14 23:38 www.Cpasbien.pe.html
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app:
+drwxr-xr-x 6 pbourdon 2015_paris 4096 Apr 18 2013 Contents
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents:
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 Frameworks
+-rw-r--r-- 1 pbourdon 2015_paris 2014 Apr 18 2013 Info.plist
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 MacOS
+-rw-r--r-- 1 pbourdon 2015_paris 8 Apr 18 2013 PkgInfo
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Apr 18 2013 Resources
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 _CodeSignature
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/MacOS:
+-rwxr-xr-x 1 pbourdon 2015_paris 505856 Apr 18 2013 puush
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks:
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 Growl.framework
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 Sparkle.framework
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework:
+-rw-r--r-- 1 pbourdon 2015_paris 259256 Apr 18 2013 Growl
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 Versions
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 headers
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 resources
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/headers:
+-rw-r--r-- 1 pbourdon 2015_paris 130 Apr 18 2013 Growl.h
+-rw-r--r-- 1 pbourdon 2015_paris 34430 Apr 18 2013 GrowlApplicationBridge-Carbon.h
+-rw-r--r-- 1 pbourdon 2015_paris 27421 Apr 18 2013 GrowlApplicationBridge.h
+-rw-r--r-- 1 pbourdon 2015_paris 15733 Apr 18 2013 GrowlDefines.h
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/resources:
+-rw-r--r-- 1 pbourdon 2015_paris 738 Apr 18 2013 Info.plist
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions:
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 A
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 Current
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions/Current:
+-rw-r--r-- 1 pbourdon 2015_paris 259256 Apr 18 2013 Growl
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 Headers
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 Resources
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions/Current/Headers:
+-rw-r--r-- 1 pbourdon 2015_paris 130 Apr 18 2013 ùGrowl.h
+-rw-r--r-- 1 pbourdon 2015_paris 34430 Apr 18 2013 GrowlApplicationBridge-Carbon.h
+-rw-r--r-- 1 pbourdon 2015_paris 27421 Apr 18 2013 GrowlApplicationBridge.h
+-rw-r--r-- 1 pbourdon 2015_paris 15733 Apr 18 2013 GrowlDefines.h
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions/Current/Resources:
+-rw-r--r-- 1 pbourdon 2015_paris 738 Apr 18 2013 Info.plist
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions/A:
+-rw-r--r-- 1 pbourdon 2015_paris 259256 Apr 18 2013 Growl
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 Headers
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 ùResources
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions/A/Headers:
+-rw-r--r-- 1 pbourdon 2015_paris 130 Apr 18 2013 Growl.h
+-rw-r--r-- 1 pbourdon 2015_paris 34430 Apr 18 2013 GrowlApplicationBridge-Carbon.h
+-rw-r--r-- 1 pbourdon 2015_paris 27421 Apr 18 2013 GrowlApplicationBridge.h
+-rw-r--r-- 1 pbourdon 2015_paris 15733 Apr 18 2013 GrowlDefines.h
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Growl.framework/Versions/A/Resources:
+-rw-r--r-- 1 pbourdon 2015_paris 738 Apr 18 2013 Info.plist
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework:
+-rw-r--r-- 1 pbourdon 2015_paris 463576 Apr 18 2013 Sparkle
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 Versions
+-rw-r--r-- 1 pbourdon 2015_paris 588 Apr 18 2013 generate_keys.rb
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 headers
+drwxr-xr-x 11 pbourdon 2015_paris 4096 Apr 18 2013 resources
+-rw-r--r-- 1 pbourdon 2015_paris 257 Apr 18 2013 ùsign_update.rb
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/headers:
+-rw-r--r-- 1 pbourdon 2015_paris 668 Apr 18 2013 SUAppcast.h
+-rw-r--r-- 1 pbourdon 2015_paris 1013 Apr 18 2013 SUAppcastItem.h
+-rw-r--r-- 1 pbourdon 2015_paris 4887 Apr 18 2013 SUUpdater.h
+-rw-r--r-- 1 pbourdon 2015_paris 705 Apr 18 2013 SUVersionComparisonProtocol.h
+-rw-r--r-- 1 pbourdon 2015_paris 536 Apr 18 2013 Sparkle.h
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources:
+-rw-r--r-- 1 pbourdon 2015_paris 720 Apr 18 2013 Info.plist
+-rw-r--r-- 1 pbourdon 2015_paris 1057 Apr 18 2013 License.txt
+-rw-r--r-- 1 pbourdon 2015_paris 5987 Apr 18 2013 ùSUModelTranslation.plist
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUStatus.nib
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 de.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 en.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 es.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 fr.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 ùit.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 nl.lproj
+-rw-r--r-- 1 pbourdon 2015_paris 58928 Apr 18 2013 relaunch
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 ru.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 sv.lproj
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/de.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 9806 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/de.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10493 Apr 18 2013 ùkeyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/de.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7278 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/de.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13189 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/sv.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8142 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/sv.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1009 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 563 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10180 Apr 18 2013 ùkeyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/sv.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 553 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7474 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/sv.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 553 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13483 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/it.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8914 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/it.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10360 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/it.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7161 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/it.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 ùclasses.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12659 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/fr.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8554 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/fr.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10338 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/fr.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7245 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/fr.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13156 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/ru.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8364 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/ru.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10895 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/ru.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7675 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/ru.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 520 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12898 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/SUStatus.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1290 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 550 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7344 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/nl.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8514 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/nl.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10220 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/nl.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 470 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7234 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/nl.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12535 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/en.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8216 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/en.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 554 Apr 18 2013 ùinfo.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10623 Apr 18 2013 ùkeyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/en.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 554 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7148 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/en.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 577 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13263 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/es.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8020 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/es.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10668 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/es.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7273 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/resources/es.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 555 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13404 Apr 18 2013 ùkeyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions:
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 A
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Apr 18 2013 Current
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 Headers
+drwxr-xr-x 11 pbourdon 2015_paris 4096 Apr 18 2013 Resources
+-rw-r--r-- 1 pbourdon 2015_paris 463576 Apr 18 2013 Sparkle
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Headers:
+-rw-r--r-- 1 pbourdon 2015_paris 668 Apr 18 2013 SUAppcast.h
+-rw-r--r-- 1 pbourdon 2015_paris 1013 Apr 18 2013 SUAppcastItem.h
+-rw-r--r-- 1 pbourdon 2015_paris 4887 Apr 18 2013 SUUpdater.h
+-rw-r--r-- 1 pbourdon 2015_paris 705 Apr 18 2013 SUVersionComparisonProtocol.h
+-rw-r--r-- 1 pbourdon 2015_paris 536 Apr 18 2013 Sparkle.h
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources:
+-rw-r--r-- 1 pbourdon 2015_paris 720 Apr 18 2013 Info.plist
+-rw-r--r-- 1 pbourdon 2015_paris 1057 Apr 18 2013 License.txt
+-rw-r--r-- 1 pbourdon 2015_paris 5987 Apr 18 2013 SUModelTranslation.plist
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUStatus.nib
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 de.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 ùen.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 ùes.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 fr.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 it.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 nl.lproj
+-rw-r--r-- 1 pbourdon 2015_paris 58928 Apr 18 2013 relaunch
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 ru.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 sv.lproj
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/de.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 ùSUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 9806 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10493 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/de.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 ùinfo.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7278 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13189 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/sv.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8142 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1009 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 563 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10180 Apr 18 2013 ùkeyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 553 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7474 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 553 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13483 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/it.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8914 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10360 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/it.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7161 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12659 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/fr.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8554 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10338 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 ùinfo.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7245 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13156 Apr 18 2013 ùkeyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/ru.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8364 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 ùclasses.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10895 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7675 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 520 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12898 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/SUStatus.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1290 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 550 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7344 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/nl.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8514 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10220 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 470 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7234 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12535 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/en.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8216 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 554 Apr 18 2013 ùinfo.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10623 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/en.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 554 Apr 18 2013 ùinfo.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7148 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 577 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13263 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/es.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8020 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10668 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/es.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7273 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 555 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13404 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 Headers
+drwxr-xr-x 11 pbourdon 2015_paris 4096 Apr 18 2013 Resources
+-rw-r--r-- 1 pbourdon 2015_paris 463576 Apr 18 2013 Sparkle
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Headers:
+-rw-r--r-- 1 pbourdon 2015_paris 668 Apr 18 2013 SUAppcast.h
+-rw-r--r-- 1 pbourdon 2015_paris 1013 Apr 18 2013 SUAppcastItem.h
+-rw-r--r-- 1 pbourdon 2015_paris 4887 Apr 18 2013 SUUpdater.h
+-rw-r--r-- 1 pbourdon 2015_paris 705 Apr 18 2013 SUVersionComparisonProtocol.h
+-rw-r--r-- 1 pbourdon 2015_paris 536 Apr 18 2013 Sparkle.h
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources:
+-rw-r--r-- 1 pbourdon 2015_paris 720 Apr 18 2013 Info.plist
+-rw-r--r-- 1 pbourdon 2015_paris 1057 Apr 18 2013 License.txt
+-rw-r--r-- 1 pbourdon 2015_paris 5987 Apr 18 2013 SUModelTranslation.plist
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUStatus.nib
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 de.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 en.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 es.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 fr.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 it.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 nl.lproj
+-rw-r--r-- 1 pbourdon 2015_paris 58928 Apr 18 2013 relaunch
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 ru.lproj
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Apr 18 2013 sv.lproj
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 9806 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10493 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7278 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13189 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8142 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1009 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 563 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10180 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 553 Apr 18 2013 ùinfo.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7474 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 553 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13483 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8914 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10360 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7161 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12659 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 ùSUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8554 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10338 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7245 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13156 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8364 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10895 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7675 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 520 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12898 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUStatus.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1290 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 550 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7344 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8514 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10220 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 470 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7234 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 438 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12535 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 ùSUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 ùSUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8216 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 554 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10623 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 554 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7148 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 577 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13263 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUAutomaticUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdateAlert.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8020 Apr 18 2013 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1532 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10668 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1144 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 552 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7273 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib:
+-rw-r--r-- 1 pbourdon 2015_paris 1374 Apr 18 2013 classes.nib
+-rw-r--r-- 1 pbourdon 2015_paris 555 Apr 18 2013 info.nib
+-rw-r--r-- 1 pbourdon 2015_paris 13404 Apr 18 2013 keyedobjects.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Resources:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Apr 18 2013 English.lproj
+-rwxr-xr-x 1 pbourdon 2015_paris 463 Apr 18 2013 Growl Registration Ticket.growlRegDict
+-rwxr-xr-x 1 pbourdon 2015_paris 176874 Apr 18 2013 Icon.icns
+-rw-r--r-- 1 pbourdon 2015_paris 20449 Apr 18 2013 Preferences.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8783 Apr 18 2013 QuickStart.nib
+-rwxr-xr-x 1 pbourdon 2015_paris 4290 Apr 18 2013 Updates.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 181 Apr 18 2013 archived-expanded-entitlements.xcent
+-rw-r--r-- 1 pbourdon 2015_paris 9844 Apr 18 2013 complete.tiff
+-rwxr-xr-x 1 pbourdon 2015_paris 270198 Apr 18 2013 error2.aif
+-rwxr-xr-x 1 pbourdon 2015_paris 1182 Apr 18 2013 key.pub
+-rw-r--r-- 1 pbourdon 2015_paris 9056 Apr 18 2013 progress0.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9896 Apr 18 2013 progress10.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9578 Apr 18 2013 progress100.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9988 Apr 18 2013 progress15.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9996 Apr 18 2013 progress20.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10012 Apr 18 2013 progress25.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10080 Apr 18 2013 progress30.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10112 Apr 18 2013 progress35.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10152 Apr 18 2013 progress40.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10146 Apr 18 2013 progress45.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9782 Apr 18 2013 progress5.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10210 Apr 18 2013 progress50.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10164 Apr 18 2013 progress55.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10188 Apr 18 2013 progress60.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10152 Apr 18 2013 progress65.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10148 Apr 18 2013 progress70.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10104 Apr 18 2013 progress75.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10114 Apr 18 2013 progress80.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10100 Apr 18 2013 progress85.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 10078 Apr 18 2013 ùprogress90.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9606 Apr 18 2013 progress95.tiff
+-rwxr-xr-x 1 pbourdon 2015_paris 56559 Apr 18 2013 quickstart-osx.png
+-rwxr-xr-x 1 pbourdon 2015_paris 1238 Apr 18 2013 status-file-drop.png
+-rwxr-xr-x 1 pbourdon 2015_paris 975 Apr 18 2013 status-icon-busy.png
+-rw-r--r-- 1 pbourdon 2015_paris 9078 Apr 18 2013 status-icon-selected.tiff
+-rw-r--r-- 1 pbourdon 2015_paris 9434 Apr 18 2013 status-icon.tiff
+-rwxr-xr-x 1 pbourdon 2015_paris 270198 Apr 18 2013 success2.aif
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/Resources/English.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 92 Apr 18 2013 InfoPlist.strings
+-rw-r--r-- 1 pbourdon 2015_paris 9111 Apr 18 2013 MainMenu.nib
+
+
+/nfs/2015/p/pbourdon/Downloads/puush.app/Contents/_CodeSignature:
+-rw-r--r-- 1 pbourdon 2015_paris 4203 Apr 18 2013 CodeResources
+
+
+/nfs/2015/p/pbourdon/Downloads/[www.Cpasbien.com] The.Dictator.2012.French.SubForced.BRRip.XviD.AC3-Van73:
+-rw-r--r-- 1 pbourdon 2015_paris 58 Jun 24 01:16 Films et series sur www.CPASBIEN.com .txt
+-rw-r--r-- 1 pbourdon 2015_paris 464 Jun 24 01:16 Les derniers Film et serie sur Cpasbien.com - cliquez ici !.html
+-rw-r--r-- 1 pbourdon 2015_paris 1466570752 Jun 24 01:34 [www.Cpasbien.com] ac3-dictator.avi
+
+
+/nfs/2015/p/pbourdon/Documents:
+
+
+/nfs/2015/p/pbourdon/Music:
+
+
+/nfs/2015/p/pbourdon/gnl:
+-rw-r--r-- 1 pbourdon 2015_paris 9 Mar  3 19:54 auteur
+-rw-r--r-- 1 pbourdon 2015_paris 2058 Mar  3 19:54 get_next_line.c
+-rw-r--r-- 1 pbourdon 2015_paris 1404 Mar  3 19:54 get_next_line.h
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar  3 19:56 libft
+
+
+/nfs/2015/p/pbourdon/gnl/libft:
+-rwxr-xr-x 1 pbourdon 2015_paris 2249 Mar  3 19:54 Makefile
+-rw-r--r-- 1 pbourdon 2015_paris 971 Mar  3 19:54 ft_abs.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1500 Mar  3 19:54 ft_atoi.c
+-rwxr-xr-x 1 pbourdon 2015_paris 989 Mar  3 19:55 ft_bzero.c
+-rwxr-xr-x 1 pbourdon 2015_paris 983 Mar  3 19:54 ft_isalnum.c
+-rw-r--r-- 1 pbourdon 2015_paris 1001 Mar  3 19:54 ft_isalpha.c
+-rwxr-xr-x 1 pbourdon 2015_paris 971 Mar  3 19:54 ft_isascii.c
+-rwxr-xr-x 1 pbourdon 2015_paris 973 Mar  3 19:54 ft_isdigit.c
+-rwxr-xr-x 1 pbourdon 2015_paris 973 Mar  3 19:54 ft_islower.c
+-rwxr-xr-x 1 pbourdon 2015_paris 973 Mar  3 19:54 ft_isprint.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1023 Mar  3 19:54 ft_isspace.c
+-rwxr-xr-x 1 pbourdon 2015_paris 973 Mar  3 19:54 ft_isupper.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1733 Mar  3 19:54 ft_itoa.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1098 Mar  3 19:55 ft_memalloc.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1190 Mar  3 19:54 ft_memccpy.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1127 Mar  3 19:54 ft_memchr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1154 Mar  3 19:54 ft_memcmp.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1086 Mar  3 19:54 ft_memcpy.c
+-rwxr-xr-x 1 pbourdon 2015_paris 984 Mar  3 19:54 ft_memdel.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1073 Mar  3 19:54 ft_memmove.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1202 Mar  3 19:56 ft_memset.c
+-rwxr-xr-x 1 pbourdon 2015_paris 960 Mar  3 19:54 ft_putchar.c
+-rwxr-xr-x 1 pbourdon 2015_paris 998 Mar  3 19:54 ft_putchar_fd.c
+-rwxr-xr-x 1 pbourdon 2015_paris 981 Mar  3 19:54 ft_putendl.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1057 Mar  3 19:54 ft_putendl_fd.c
+-rwxr-xr-x 1 pbourdon 2015_paris 971 Mar  3 19:54 ft_putnbr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1067 Mar  3 19:54 ft_putnbr_fd.c
+-rwxr-xr-x 1 pbourdon 2015_paris 979 Mar  3 19:54 ft_putstr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1029 Mar  3 19:54 ft_putstr_fd.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1080 Mar  3 19:54 ft_strcat.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1094 Mar  3 19:54 ft_strchr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1000 Mar  3 19:54 ft_strclr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1107 Mar  3 19:54 ft_strcmp.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1072 Mar  3 19:54 ft_strcpy.c
+-rwxr-xr-x 1 pbourdon 2015_paris 984 Mar  3 19:54 ft_strdel.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1080 Mar  3 19:54 ft_strdup.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1013 Mar  3 19:54 ft_strequ.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1021 Mar  3 19:54 ft_striter.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1066 Mar  3 19:54 ft_striteri.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1272 Mar  3 19:54 ft_strjoin.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1289 Mar  3 19:54 ft_strlcat.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1025 Mar  3 19:54 ft_strlen.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1130 Mar  3 19:54 ft_strmap.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1164 Mar  3 19:54 ft_strmapi.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1140 Mar  3 19:54 ft_strncat.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1171 Mar  3 19:54 ft_strncmp.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1127 Mar  3 19:54 ft_strncpy.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1032 Mar  3 19:54 ft_strnequ.c
+-rwxr-xr-x 1 pbourdon 2015_paris 980 Mar  3 19:54 ft_strnew.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1057 Mar  3 19:54 ft_strnlen.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1347 Mar  3 19:54 ft_strnstr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1127 Mar  3 19:54 ft_strrchr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 2241 Mar  3 19:54 ft_strsplit.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1240 Mar  3 19:54 ft_strstr.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1146 Mar  3 19:54 ft_strsub.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1523 Mar  3 19:54 ft_strtrim.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1000 Mar  3 19:54 ft_tolower.c
+-rwxr-xr-x 1 pbourdon 2015_paris 1000 Mar  3 19:54 ft_toupper.c
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar  3 19:54 includes
+
+
+/nfs/2015/p/pbourdon/gnl/libft/includes:
+-rwxr-xr-x 1 pbourdon 2015_paris 3919 Mar  3 19:54 libft.h
+
+
+/nfs/2015/p/pbourdon/exam-basedir:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 May 12 13:13 docs
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Jun 28 09:18 rendu
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Jun 28 09:09 subjects
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:18 traces
+
+
+/nfs/2015/p/pbourdon/exam-basedir/traces:
+-rw-r--r-- 1 pbourdon 2015_paris 1252 Jun 28 09:04 5-0_ft_itoa_base.trace
+-rw-r--r-- 1 pbourdon 2015_paris 1253 Jun 28 09:09 5-1_print_memory.trace
+-rw-r--r-- 1 pbourdon 2015_paris 6990 Jun 28 09:18 5-2_brainfuck.trace
+
+
+/nfs/2015/p/pbourdon/exam-basedir/subjects:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:09 brainfuck
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:04 ft_itoa_base
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:04 print_memory
+
+
+/nfs/2015/p/pbourdon/exam-basedir/subjects/print_memory:
+-rw-r--r-- 1 pbourdon 2015_paris 816 Jun 28 09:04 subject.en.txt
+-rw-r--r-- 1 pbourdon 2015_paris 830 Jun 28 09:04 subject.fr.txt
+-rw-r--r-- 1 pbourdon 2015_paris 814 Jun 28 09:04 subject.ro.txt
+
+
+/nfs/2015/p/pbourdon/exam-basedir/subjects/ft_itoa_base:
+-rw-r--r-- 1 pbourdon 2015_paris 801 Jun 28 09:04 subject.en.txt
+-rw-r--r-- 1 pbourdon 2015_paris 915 Jun 28 09:04 subject.fr.txt
+
+
+/nfs/2015/p/pbourdon/exam-basedir/subjects/brainfuck:
+-rw-r--r-- 1 pbourdon 2015_paris 268 Jun 28 09:09 examples.txt
+-rw-r--r-- 1 pbourdon 2015_paris 1180 Jun 28 09:09 subject.en.txt
+-rw-r--r-- 1 pbourdon 2015_paris 1294 Jun 28 09:09 subject.fr.txt
+-rw-r--r-- 1 pbourdon 2015_paris 1223 Jun 28 09:09 subject.ro.txt
+
+
+/nfs/2015/p/pbourdon/exam-basedir/docs:
+-rw-r--r-- 1 pbourdon 2015_paris 3220 May 12 13:13 GUIDELINES.en.md
+-rw-r--r-- 1 pbourdon 2015_paris 3191 May 12 13:13 GUIDELINES.fr.md
+-rw-r--r-- 1 pbourdon 2015_paris 3716 May 12 13:13 GUIDELINES.ro.md
+
+
+/nfs/2015/p/pbourdon/exam-basedir/rendu:
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:18 brainfuck
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Jun 28 09:26 brainfuck2
+
+
+/nfs/2015/p/pbourdon/exam-basedir/rendu/brainfuck2:
+-rwxr-xr-x 1 pbourdon 2015_paris 8564 Jun 28 09:26 a.out
+-rw-r--r-- 1 pbourdon 2015_paris 2051 Jun 28 09:26 brainfuck.c
+
+
+/nfs/2015/p/pbourdon/exam-basedir/rendu/brainfuck:
+-rw-r--r-- 1 pbourdon 2015_paris 2050 Jun 28 09:17 brainfuck.c
+
+
+/nfs/2015/p/pbourdon/Desktop:
+
+
+/nfs/2015/p/pbourdon/Applications:
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Oct 22 2008 BitTorrent.app
+drwx------ 7 pbourdon 2015_paris 4096 Feb 22 17:16 Chrome Apps.localized
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app:
+drwxr-xr-x 7 pbourdon 2015_paris 4096 Mar 17 23:48 Contents
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents:
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Mar 17 23:47 Frameworks
+-rw-r--r-- 1 pbourdon 2015_paris 3394 Mar 17 23:48 Info.plist
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Mar 17 23:48 Library
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:48 MacOS
+-rw-r--r-- 1 pbourdon 2015_paris 8 Mar 17 23:48 PkgInfo
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 17 23:48 Resources
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:48 _CodeSignature
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/MacOS:
+-rwxr-xr-x 1 pbourdon 2015_paris 4582624 Mar 17 23:48 BitTorrent
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks:
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 17 23:47 Growl.framework
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 17 23:47 Sparkle.framework
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Growl.framework:
+lrwxrwxrwx 1 pbourdon 2015_paris 22 Mar 17 23:48 Growl -> Versions/Current/Growl
+lrwxrwxrwx 1 pbourdon 2015_paris 24 Mar 17 23:48 Headers -> Versions/Current/Headers
+lrwxrwxrwx 1 pbourdon 2015_paris 26 Mar 17 23:48 Resources -> Versions/Current/Resources
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 17 23:47 Versions
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Growl.framework/Versions:
+drwxr-xr-x 5 pbourdon 2015_paris 4096 Mar 17 23:48 A
+lrwxrwxrwx 1 pbourdon 2015_paris 1 Mar 17 23:48 Current -> A
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Growl.framework/Versions/A:
+-rwxr-xr-x 1 pbourdon 2015_paris 289808 Mar 17 23:48 Growl
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 Headers
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 Resources
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:48 _CodeSignature
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Growl.framework/Versions/A/Headers:
+-rw-r--r-- 1 pbourdon 2015_paris 130 Mar 17 23:47 Growl.h
+-rw-r--r-- 1 pbourdon 2015_paris 34419 Mar 17 23:47 GrowlApplicationBridge-Carbon.h
+-rw-r--r-- 1 pbourdon 2015_paris 27436 Mar 17 23:47 GrowlApplicationBridge.h
+-rw-r--r-- 1 pbourdon 2015_paris 15733 Mar 17 23:47 GrowlDefines.h
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Growl.framework/Versions/A/Resources:
+-rw-r--r-- 1 pbourdon 2015_paris 1136 Mar 17 23:47 Info.plist
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Growl.framework/Versions/A/_CodeSignature:
+-rw-r--r-- 1 pbourdon 2015_paris 2552 Mar 17 23:48 CodeResources
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework:
+lrwxrwxrwx 1 pbourdon 2015_paris 26 Mar 17 23:48 Resources -> Versions/Current/Resources
+lrwxrwxrwx 1 pbourdon 2015_paris 24 Mar 17 23:48 Sparkle -> Versions/Current/Sparkle
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 17 23:47 Versions
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions:
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Mar 17 23:48 A
+lrwxrwxrwx 1 pbourdon 2015_paris 1 Mar 17 23:48 Current -> A
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A:
+drwxr-xr-x 28 pbourdon 2015_paris 4096 Mar 17 23:47 Resources
+-rwxr-xr-x 1 pbourdon 2015_paris 196560 Mar 17 23:48 Sparkle
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:48 _CodeSignature
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources:
+drwxr-xr-x 3 pbourdon 2015_paris 4096 Mar 17 23:47 Autoupdate.app
+-rw-r--r-- 1 pbourdon 2015_paris 1146 Mar 17 23:47 Info.plist
+-rw-r--r-- 1 pbourdon 2015_paris 2530 Mar 17 23:47 License.txt
+-rw-r--r-- 1 pbourdon 2015_paris 6259 Mar 17 23:47 SUModelTranslation.plist
+-rw-r--r-- 1 pbourdon 2015_paris 6600 Mar 17 23:47 SUStatus.nib
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ar.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 cs.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 da.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 de.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 en.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 es.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 fr.lproj
+lrwxrwxrwx 1 pbourdon 2015_paris 8 Mar 17 23:48 fr_CA.lproj -> fr.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 is.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 it.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ja.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ko.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 nl.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 pl.lproj
+lrwxrwxrwx 1 pbourdon 2015_paris 11 Mar 17 23:48 pt.lproj -> pt_BR.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 pt_BR.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 pt_PT.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ro.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ru.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 sk.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 sl.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 sv.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 th.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 tr.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 uk.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 zh_CN.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 zh_TW.lproj
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6926 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10075 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12364 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 4694 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7138 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10267 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12800 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 6830 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7111 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10279 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12383 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 4960 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7144 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10421 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12748 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7298 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7122 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10377 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12707 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7386 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7057 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10420 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12776 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 6652 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6954 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10114 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12466 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 5136 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7138 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10471 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12573 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 5570 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7037 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10388 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12765 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7188 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7129 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10548 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12935 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 6702 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7053 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10382 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12684 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7258 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7152 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10491 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12666 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7826 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7074 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10258 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12613 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7582 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7111 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10471 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12963 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7256 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7178 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10559 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12913 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 6714 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7042 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10368 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12564 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7816 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7050 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10293 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12615 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8226 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7048 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10256 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12829 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 4744 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app:
+drwxr-xr-x 4 pbourdon 2015_paris 4096 Mar 17 23:47 Contents
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents:
+-rw-r--r-- 1 pbourdon 2015_paris 1426 Mar 17 23:47 Info.plist
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 MacOS
+-rw-r--r-- 1 pbourdon 2015_paris 8 Mar 17 23:47 PkgInfo
+drwxr-xr-x 27 pbourdon 2015_paris 4096 Mar 17 23:47 Resources
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS:
+-rwxr-xr-x 1 pbourdon 2015_paris 61464 Mar 17 23:47 Autoupdate
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources:
+-rw-r--r-- 1 pbourdon 2015_paris 6600 Mar 17 23:47 SUStatus.nib
+-rw-r--r-- 1 pbourdon 2015_paris 41403 Mar 17 23:47 Sparkle.icns
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ar.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 cs.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 da.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 de.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 en.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 es.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 fr.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 is.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 it.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ja.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ko.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 nl.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 pl.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 pt_BR.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 pt_PT.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ro.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 ru.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 sk.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 sl.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 sv.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 th.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 tr.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 uk.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 zh_CN.lproj
+drwxr-xr-x 2 pbourdon 2015_paris 4096 Mar 17 23:47 zh_TW.lproj
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/zh_TW.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 4694 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sl.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6830 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/zh_CN.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 4960 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/de.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7298 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/th.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7386 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sv.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6652 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ko.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 5136 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ja.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 5570 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/it.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7188 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pt_PT.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6702 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/da.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7258 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ro.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7826 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pl.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7582 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/fr.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7256 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ru.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6714 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/nl.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7816 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/en.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 8226 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/is.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 4744 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/tr.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 8442 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/uk.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6696 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/es.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7008 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pt_BR.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6380 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ar.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7338 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/cs.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6692 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sk.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 6532 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7214 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10512 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12780 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 8442 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7268 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10659 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12823 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 6696 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7087 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10527 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12921 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 7008 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7113 Mar 17 23:47 SUAutomaticUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 10336 Mar 17 23:47 SUUpdateAlert.nib
+-rw-r--r-- 1 pbourdon 2015_paris 12834 Mar 17 23:47 SUUpdatePermissionPrompt.nib
+-rw-r--r-- 1 pbourdon 2015_paris 6380 Mar 17 23:47 Sparkle.strings
+
+
+/nfs/2015/p/pbourdon/Applications/BitTorrent.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj:
+-rw-r--r-- 1 pbourdon 2015_paris 7153 Mar 17 23:47

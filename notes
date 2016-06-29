@@ -28,8 +28,3 @@ REFAIRE LE SYSTEME DE TRI POUR POUVOIR INSERER OU JE VEUX CHAQUE ELEMENT
 
 ------------------------------------------------------------
 
-Gerer le pbme de caractere biwarre sur lRa sur tmp + gerer le R
-(close dir ?)
-TO DO 
-gerer le pbme de ne pas afficher le lien symbolique si le path finit par /
-Afficher lien symbolique uniquement lorsque le path en est un

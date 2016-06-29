@@ -6,7 +6,7 @@
 #    By: ybeaure <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/04/06 15:21:05 by ybeaure           #+#    #+#              #
-#    Updated: 2016/06/28 06:20:32 by pbourdon         ###   ########.fr        #
+#    Updated: 2016/06/28 08:59:49 by pbourdon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ CFLAGS = # -Wall -Wextra -Werror
 
 LDFLAGS = -L $(LIBPATH) -lft
 
-SRC =  main.c\
+SRC =	main.c\
 		ft_init_struct.c\
 		ft_handle_option.c\
 		ft_find_options.c\

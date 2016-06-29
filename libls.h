@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:06:57 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 08:42:00 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/29 04:47:33 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ typedef struct		s_yolo
 {
 	int			*read;
 	int			uid;
+	int			a;
 	int			option_a;
 	int			option_rr;
 	int			option_l;
@@ -64,6 +65,7 @@ int					ft_handle_option(t_arg *arg, int argc, char **argv,
 void				ft_find_options(t_arg *arg, char *command);
 int					ft_ls(t_arg *arg, char *path, int id);
 int					registre(t_arg *arg, char *path, int recursive);
+int					z(char *path);
 int					ft_check_folder(char *path);
 t_dlist				*dlist_new(void);
 t_dlist				*ft_add_data(t_dlist *list, char *name, char *path,
@@ -85,6 +87,8 @@ t_node				*fuck_the_norm5(t_node *nouveau_element, char *path,
 	char *nam);
 t_dlist				*nik_the_norm(t_node *p_new, t_dlist *p_list, int i);
 t_dlist				*nik_the_norm2(t_dlist *p_list, t_node *p_new, int i);
+int					fuck_the_norm6(char *path, t_arg *arg, DIR *rep,
+	int recursive);
 
 void				ft_putstr(char *str);
 void				ft_putchar(char c);
@@ -99,6 +103,7 @@ int					e(const char *s1);
 void				ft_putstr_fd(char *str, int fd);
 void				ft_putnbr_fd(int nbr, int fd);
 char				*ft_strjoin_special(char const *s1, char const *s2);
+char				*t(char const *s1, char const *s2);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strdup(const char *s1);
 #endif

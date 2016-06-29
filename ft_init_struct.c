@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/14 14:27:17 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/13 06:56:56 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/29 04:46:56 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 void	ft_init_struct(t_arg *arg)
 {
+	arg->a = 0;
 	arg->option_a = 0;
 	arg->option_rr = 0;
 	arg->option_l = 0;

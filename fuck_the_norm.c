@@ -6,7 +6,7 @@
 /*   By: pbourdon <pbourdon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/28 06:17:13 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/06/28 08:39:31 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/06/29 04:40:58 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,4 +54,13 @@ t_dlist		*nik_the_norm2(t_dlist *p_list, t_node *p_new, int i)
 		p_list->p_tail = p_new;
 	}
 	return (p_list);
+}
+
+int			fuck_the_norm6(char *path, t_arg *arg, DIR *rep, int recursive)
+{
+	if (rep != NULL)
+		closedir(rep);
+	if (recursive == 1)
+		registre2(path, arg);
+	return (0);
 }
